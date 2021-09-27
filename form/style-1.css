@@ -1,0 +1,54 @@
+.section-0 {
+  /* background-color: red; */
+}
+
+h2 {
+  color: #00d2b5;
+  font-weight: 600;
+}
+
+.input--style-2 {
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+  color: grey;
+  font-weight: 100;
+  padding: 10px 0px;
+}
+.input-group {
+  width: 100%;
+}
+
+.form-select {
+  height: 27px;
+  color: grey;
+  font-weight: 100;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+.form-control {
+  color: rgba(128, 128, 128, 0.404);
+}
+.error {
+  color: red;
+  font-size: 15px;
+}
+.reg-btn button{
+    background-color: #22c9b5;
+    width: 90%;
+    font-size: 18px;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+    color: #fff;
+    transition: all 500ms ease-in-out;
+}
+.reg-btn button:hover {
+    background-color: #2f978b98;
+}
+
+footer {
+    color: grey;
+    margin-top: 100px;
+}
