@@ -269,25 +269,6 @@
       </div>
     </footer>
 
-    <script>
-      $("#register").submit((e) => {
-        e.preventDefault();
-        $.ajax({
-          url: "https://script.google.com/macros/s/AKfycbx1rtbtvDtdM3fTZqUd7TF5Js4n2bhf7VnPjACD/exec",
-          data: $("#register").serialize(),
-          method: "post",
-          success: function (response) {
-            alert("Form submitted successfully");
-            window.location.reload();
-            // window.location.href = "index.html";
-          },
-          error: function (err) {
-            alert("Something Error");
-          },
-        });
-      });
-    </script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
     <script src="document1.js"></script>
